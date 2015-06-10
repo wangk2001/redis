@@ -34,7 +34,7 @@ public class Program {
 			}
 		}).start();
 
-//		subscriber.unsubscribe();
+		subscriber.unsubscribe();
 		jedisPool.returnResource(subscriberJedis);
 	}
 }
